@@ -129,10 +129,10 @@ p {
 }
 
 .contact-container {
-  width: 960px;
+  width: 920px;
   border: #dddddd 1px solid;
   padding: 20px;
-  margin-bottom: 212px;
+  margin-bottom: 20px;
   background-color: #fff;
   box-shadow: 0px 0px 16px -5px rgba(0, 0, 0, 0.75);
 }
