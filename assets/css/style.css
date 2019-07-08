@@ -284,6 +284,61 @@ button:hover {
   border-top: 6px solid #4aaaa5;
 }
 
+/* Tablet Layout */
+
+@media (max-width: 768px) {
+  .about-container {
+    margin: 10px;
+    border-radius: 4px;
+  }
+
+  .link-wrapper {
+    float: none;
+    justify-content: center;
+  }
+  #title {
+    width: 100%;
+  }
+
+  .nav-title {
+    float: none;
+    text-align: center;
+  }
+
+  .contact-container {
+    border-radius: 4px;
+    margin: 10px;
+  }
+
+  .title-heading {
+    text-align: center;
+  }
+
+  .portfolio-container {
+    border-radius: 4px;
+    margin: 10px;
+  }
+
+  .portfolio-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .image {
+    border-radius: 4px;
+    height: 250px;
+    width: 225px;
+  }
+
+  .photo-label {
+    margin-top: 85%;
+  }
+}
+
+/* Mobile layout */
+
 @media (max-width: 640px) {
   .link-wrapper {
     float: none;
