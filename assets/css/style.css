@@ -102,6 +102,28 @@ body {
   width: 96%;
   margin: 0 auto;
 }
+
+/* Animation */
+
+.title-section {
+  position: relative;
+  animation-delay: 1s;
+  animation: slide 3.2s ease;
+}
+
+@keyframes slide {
+  from {
+    left: 50%;
+    -webkit-animation-timing-function: ease;
+  }
+
+  to {
+    left: 0;
+  }
+}
+
+/* end of animation */
+
 .title-section h3 {
   padding: 20px;
   font-size: 1.5em;

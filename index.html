@@ -69,6 +69,19 @@
     <div class="footer-container">
       <h5 class="copywright">copyright &copy</h5>
     </div>
+
+    <script>
+      const title = document.getElementById("title")
+
+      title.addEventListener('mouseover', function() {
+        this.style.transition = "0.75s"
+        this.style.letterSpacing = "2px"
+        
+      })
+      title.addEventListener('mouseout', function() {
+        this.style.letterSpacing = '1.5px'
+      })
+    </script>
 </body>
 </div>
 
