@@ -139,6 +139,7 @@ p {
   float: left;
   margin: 20px 30px 15px 5px;
   box-shadow: 0px 0px 16px -5px rgba(0, 0, 0, 0.75);
+  border-radius: 3px;
 }
 
 /* CONTACT STYLES */
@@ -242,7 +243,7 @@ button:hover {
 .portfolio-images {
   display: flex;
   flex-wrap: wrap;
-  width: 600px;
+  justify-content: center;
 }
 
 .image {
