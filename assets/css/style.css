@@ -250,6 +250,7 @@ button:hover {
   width: 200px;
   margin: 20px;
   box-shadow: 0px 0px 16px -5px rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
 }
 
 #image-1 {
@@ -273,8 +274,8 @@ button:hover {
 }
 
 #image-5 {
-  background: url("../images/pexels-photo-2480684.jpeg");
-  background-size: cover;
+  background: url("../images/photo-1496850574977-a4607106a874.jpg");
+  background-size: 100% 100%;
 }
 
 #image-6 {
